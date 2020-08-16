@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: cursive;
+}
+
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(56, 56, 105);
+}
+
+h1{
+    color: rgb(228, 227, 222);
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.buttons{
+    border-radius: 25px;
+    padding: 0.8rem;
+    font-size: .8rem;
+    background-color: rgb(242, 242, 242);
+    border: black 2px solid;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    transform: translateY(-2px);
+}
+.buttons:active{
+    transform: translateY(2px);
+}
+
+#myLibrary{
+    position: relative;
+}
+
+#modal{
+    position: absolute;
+    margin:auto;
+    left:36%;
+    top:0.5rem;
+    text-align: center;
+    background-color: rgb(64, 39, 87);
+    width: 25%;
+    font-size: 1.8rem;
+    padding: 2rem 1.2rem 2rem 1.2rem;
+    border-radius: 25px;
+    color:rgb(185,185,185);
+    box-shadow: black 10px 10px 100px;
+}
+
+#pages,#title,#author{
+    width:7rem;
+    height: 1.4rem;
+}
+
+#radioTxt{
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.myBooks{
+    font-size:1.2rem;
+    text-align: center;
+    background-color: cadetblue;
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+
+}
+
+.myBooks span{
+    display:block;
+    color: #571120;
+    margin:20px 20px;
+}
+
+.deleteIcon{
+    display : inline-block;
+    background-color: cadetblue ;
+    border:none; 
+}
+
+.deleteIcon img{
+   width: 30px;
+   height:30px;
+
+}
+.deleteIcon:hover{
+    transform: translateY(-3px);
+}
+
+.deleteIcon:active{
+    transform: translateY(3px);
+    
+}

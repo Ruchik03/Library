@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link rel="stylesheet"href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Library</h1>
+        <button class="buttons"class="pressingEffect"type="button" id="addBook">Add Book</button>
+    </header>
+
+
+    <div id="myLibrary">
+        
+
+
+        <!--Modal-->
+        <div id = 'modal'>
+
+            <!--Modal Content-->
+            <form class='modalContent'>
+                
+                <label for="title">Title:</label>
+                <br>
+                <input type="text" id="title">
+                <br>
+                <br>
+                <label for="author">Author:</label>
+                <br>
+                <input type="text" id="author">
+                <br>
+                <br>
+                <label for="pages">Pages:</label>
+                <br>
+                <input type="text" id="pages">
+                <br>
+                <br>
+                
+                <input type="radio"name="readOrNot" id="read" value="read">
+                <label id="radioTxt"for="read">Read</label>
+                
+                <input type="radio"name="readOrNot" id="notRead" value="notRead">
+                <label id="radioTxt"for="notRead">Not Read</label>
+                <br>
+                <br>
+                <button class="buttons"id="cancel" type="button">Cancel</button>
+                <button class="buttons" id="addBookM"type="button">Add</button>
+            </form>
+        </div>
+    </div>
+
+
+<script src="script/main.js"> </script>
+</body>
+</html>
